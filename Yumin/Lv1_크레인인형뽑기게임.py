@@ -2,7 +2,7 @@
 
 def solution(board, moves):
     basket = []
-    answer=0
+    answer = 0
     for m in moves:
         for i in range(len(board)):
             if board[i][m-1]!=0:
