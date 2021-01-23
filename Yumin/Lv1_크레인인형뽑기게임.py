@@ -1,7 +1,7 @@
 #https://programmers.co.kr/learn/courses/30/lessons/64061
 
 def solution(board, moves):
-    basket = [] #바구니
+    basket = []
     answer=0
     for m in moves:
         for i in range(len(board)):
