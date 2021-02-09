@@ -38,6 +38,5 @@ def solution(numbers, hand):
                 else:
                     r = keys[n]
         answer += tmp
-        print(l, r, n, keys[n], tmp)
-
+        
     return answer
