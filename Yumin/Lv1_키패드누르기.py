@@ -38,5 +38,5 @@ def solution(numbers, hand):
                 else:
                     r = keys[n]
         answer += tmp
-        
+
     return answer
