@@ -1,4 +1,4 @@
-# reference https://itchallenger.tistory.com/86
+# https://itchallenger.tistory.com/86
 
 def solution(dartResult):
     answer = []
