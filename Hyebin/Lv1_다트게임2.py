@@ -5,7 +5,7 @@ import re
 def solution(dartResult):
     bonus = {'S' : 1, 'D' : 2, 'T' : 3}
     option = {'' : 1, '*' : 2, '#' : -1}
-    p = re.compile('(\d+)([SDT])([*#]?)')
+    p = re.compile('(\d+)([SDT])([*#]?)') #정규표현식사용!!!!!!!
     dart = p.findall(dartResult)
     # print(dart) 
     # [('1', 'S', ''), ('2', 'D', '*'), ('3', 'T', '')]
