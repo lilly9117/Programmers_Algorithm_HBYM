@@ -1,4 +1,4 @@
-def solution(prices):
+def solution(prices): 
     answer = []
 
     for i, p in enumerate(prices):
