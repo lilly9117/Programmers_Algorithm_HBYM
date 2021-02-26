@@ -1,7 +1,7 @@
 def solution(number, k):
     answer = []
 
-    # 들어오는 값 > answer[-1]이면 기존 값을 제거 후 새로운 값으로
+    # 들어오는 값 > answer[-1]인 경우 > 기존 값 제거&새로운 값으로
     for n in number:
         while k > 0 and len(answer) > 0 and answer[-1] < n:
             answer.pop()
