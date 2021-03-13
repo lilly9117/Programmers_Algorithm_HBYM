@@ -9,7 +9,10 @@ def solution(n, words):
         count+=1
     return answer
 
+
 # n = 3
 # words = ["tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"]
 # print(solution(n,words))
+
+
 
