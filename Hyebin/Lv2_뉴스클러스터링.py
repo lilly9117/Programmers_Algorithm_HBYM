@@ -22,8 +22,8 @@ def solution(str1, str2):
     up_intersect = sum([min(count_str1[i], count_str2[i]) for i in intersect ])
     down_union = sum([max(count_str1[i], count_str2[i]) for i in union])
 
-    jac = up_intersect / down_union
-    answer = int(jac * 65536)
+    answer = int(float(up_intersect) / float(down_union) * 65536)
+ 
     return answer
 
 str1 = 'FRANCE'
